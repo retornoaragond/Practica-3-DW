@@ -1,0 +1,48 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/fontawesome-webfont.woff);
+}
+
+.tm-navbar {
+    padding: 15px 0;
+    border: none;
+    background: #000 !important;
+}
+
+.espaciadonegro {
+    border: none;
+    height: 8px;
+    /* Set the hr color */
+    color: #000;
+    /* old IE */
+    background-color: #000;
+}
+
+.espaciadorojo {
+    border: none;
+    height: 8px;
+    /* Set the hr color */
+    color: rgb(255, 0, 0);
+    /* old IE */
+    background-color: rgb(255, 0, 0);
+}
+
+.espaciado {
+    border: none;
+    height: 2px;
+    color: rgb(122, 112, 112);
+    /* old IE */
+    background-color: rgb(122, 112, 112);
+}
+
+.zeldas {
+    display: inline;
+    font-size: x-large;
+    margin-inline: 30px;
+}
+.linkea{
+    color: grey;
+}
+.linkea:hover {
+    color: red;
+}
